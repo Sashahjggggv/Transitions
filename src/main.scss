@@ -28,7 +28,7 @@
 
 	&__ease {
 		transition-timing-function: ease;
-		&:hover {
+		&:hover, &:active {
 			transition-timing-function: ease;
 			transition-delay: 1s, 0s;
 			transition-property: background-color, padding;
@@ -37,42 +37,42 @@
 
 	&__ease-in {
 		transition-timing-function: ease-in;
-		&:hover {
+		&:hover, &:active {
 			transition-timing-function: ease-in;
 		}
 	}
 
 	&__ease-out {
 		transition-timing-function: ease-out;
-		&:hover {
+		&:hover, &:active {
 			transition-timing-function: ease-out;
 		}
 	}
 
 	&__ease-in-out {
 		transition-timing-function: ease-in-out;
-		&:hover {
+		&:hover, &:active {
 			transition-timing-function: ease-in-out;
 		}
 	}
 
 	&__linear {
 		transition-timing-function: linear;
-		&:hover {
+		&:hover, &:active {
 			transition-timing-function: linear;
 		}
 	}
 
 	&__steps {
 		transition-timing-function: steps(5, start);
-		&:hover {
+		&:hover, &:active {
 			transition-timing-function: steps(5, start);
 		}
 	}
 
 	&__cubic-bezier {
 		transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		&:hover {
+		&:hover, &:active {
 			transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 		}
 	}

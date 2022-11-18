@@ -30,7 +30,7 @@
 .block__ease {
   transition-timing-function: ease;
 }
-.block__ease:hover {
+.block__ease:hover, .block__ease:active {
   transition-timing-function: ease;
   transition-delay: 1s, 0s;
   transition-property: background-color, padding;
@@ -38,36 +38,36 @@
 .block__ease-in {
   transition-timing-function: ease-in;
 }
-.block__ease-in:hover {
+.block__ease-in:hover, .block__ease-in:active {
   transition-timing-function: ease-in;
 }
 .block__ease-out {
   transition-timing-function: ease-out;
 }
-.block__ease-out:hover {
+.block__ease-out:hover, .block__ease-out:active {
   transition-timing-function: ease-out;
 }
 .block__ease-in-out {
   transition-timing-function: ease-in-out;
 }
-.block__ease-in-out:hover {
+.block__ease-in-out:hover, .block__ease-in-out:active {
   transition-timing-function: ease-in-out;
 }
 .block__linear {
   transition-timing-function: linear;
 }
-.block__linear:hover {
+.block__linear:hover, .block__linear:active {
   transition-timing-function: linear;
 }
 .block__steps {
   transition-timing-function: steps(5, start);
 }
-.block__steps:hover {
+.block__steps:hover, .block__steps:active {
   transition-timing-function: steps(5, start);
 }
 .block__cubic-bezier {
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.block__cubic-bezier:hover {
+.block__cubic-bezier:hover, .block__cubic-bezier:active {
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
